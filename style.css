@@ -112,13 +112,30 @@ ul{
 }
 
 .three{
+    display: flex;
+    flex-direction: column;
     background-color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote{
+    padding-left: 20%;
+    padding-right: 20%;
+    font-size: 36px;
+    color: #1F2937;
+}
+.thor{
+    padding-right: 20%;
+    align-self: flex-end;
 }
 
 .four{
     display: flex;
     justify-content: center;
     align-items: center;
+    
+
 }
 
 .signup{
