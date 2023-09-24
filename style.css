@@ -5,23 +5,37 @@
 .header{
     display: flex;
     background-color: #1f2937;
+    margin: 0;
 }
 
-li{
+.logo{
     display: flex;
-    color: white;
-    
+    align-items: center;
+    padding: 18px;
+    font-size: 24px;
+    color:  #F9FAF8;
+    margin-right: auto;
+    margin-left: 120px;
 }
 
 a{
     display: flex;
     color: white;
     text-decoration: none;
+    padding: 20px;
     
 }
+.links{
+    display: flex;
+    align-items: center;
+    margin-right: 120px;
+}
+
 
 ul{
     display: flex;
     justify-content: space-between;
     list-style-type: none;
+    
 }
+
