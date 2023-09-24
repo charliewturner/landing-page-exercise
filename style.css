@@ -19,7 +19,7 @@ body{
     font-size: 24px;
     color:  #F9FAF8;
     margin-right: auto;
-    margin-left: 120px;
+    margin-left: 100px;
 }
 
 a{
@@ -32,7 +32,7 @@ a{
 .links{
     display: flex;
     align-items: center;
-    margin-right: 120px;
+    margin-right: 100px;
 }
 
 
@@ -71,17 +71,17 @@ ul{
     color: white;
     width: 50%;
     padding-right: 20px;
-    padding-left: 20px;
     
 }
 
 .upper{
     font-size: 48px;
     text-wrap: wrap;
+    font-weight: 700;
 }
 
-.lower{
-    font-size: 24px;
+.middle{
+    font-size: 18px;
     text-wrap: wrap;
     
 }
@@ -115,16 +115,24 @@ ul{
     background-color: #E5E7EB;
 }
 
-footer{
+.four{
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
 }
+
 .signup{
-    display: flex;
     margin: 50px;
     height: 100px;
     width: 600px;
     background-color: #3882F6;
     
 }
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
