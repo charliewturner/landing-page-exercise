@@ -1,5 +1,5 @@
 *{
-    font-style: roboto;
+    font-family: 'Roboto', sans-serif;
 }
 
 body{
@@ -57,16 +57,22 @@ ul{
 .one{
     display: flex;
     background-color: #1f2937;
-    padding-left: 135px;
-    padding-right: 135px;
+    padding: 120px;
+    height: auto;
+    
 }
 
 .text-container{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-wrap: wrap;
     color: white;
     width: 50%;
+    padding-right: 20px;
+    padding-left: 20px;
+    
 }
 
 .upper{
@@ -77,10 +83,28 @@ ul{
 .lower{
     font-size: 24px;
     text-wrap: wrap;
+    
+}
+
+.signup-button{
+    padding: 10px;
+    background-color: #3882F6;
+    color: white;
+    width: 120px;
+    border-radius: 8px;
+    border-style: none;
+    margin-right: auto;
+    margin-top: 10px;
 }
 
 .placeholder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 50%;
+    background-color: rgba(165, 165, 165, 0.767);
+    color: white;
+    
 }
 
 .two{
@@ -101,6 +125,6 @@ footer{
     margin: 50px;
     height: 100px;
     width: 600px;
-
     background-color: #3882F6;
+    
 }
