@@ -139,11 +139,31 @@ ul{
 }
 
 .signup{
+    display: flex;
+    color: white;
     margin: 50px;
     height: 100px;
     width: 600px;
     background-color: #3882F6;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
     
+}
+
+.header-four{
+
+}
+
+.text-four{
+
+}
+
+.right{
+    border-style: solid;
+    border-color: white;
+    border-width: 8px;
 }
 
 footer{
