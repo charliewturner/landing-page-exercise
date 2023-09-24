@@ -65,6 +65,22 @@ ul{
     display: flex;
     flex-direction: column;
     text-wrap: wrap;
+    color: white;
+    width: 50%;
+}
+
+.upper{
+    font-size: 48px;
+    text-wrap: wrap;
+}
+
+.lower{
+    font-size: 24px;
+    text-wrap: wrap;
+}
+
+.placeholder{
+    width: 50%;
 }
 
 .two{
