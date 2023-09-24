@@ -2,6 +2,10 @@
     font-style: roboto;
 }
 
+body{
+    margin: 0px;
+}
+
 .header{
     display: flex;
     background-color: #1f2937;
