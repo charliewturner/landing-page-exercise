@@ -51,8 +51,7 @@ ul{
 
 .section{
     display: flex;
-    height: 300px;
-    border-style: solid;
+    height: 350px;
 }
 
 .one{
@@ -65,4 +64,18 @@ ul{
 
 .three{
     background-color: #E5E7EB;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.signup{
+    display: flex;
+    margin: 50px;
+    height: 100px;
+    width: 600px;
+
+    background-color: #3882F6;
 }
