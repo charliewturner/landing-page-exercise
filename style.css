@@ -43,3 +43,15 @@ ul{
     
 }
 
+.body{
+    display: flex;
+    flex-direction: column;
+    border: 5px black;
+}
+
+.section{
+    display: flex;
+    height: 300px;
+    border-style: solid;
+}
+
