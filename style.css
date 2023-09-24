@@ -55,7 +55,16 @@ ul{
 }
 
 .one{
+    display: flex;
     background-color: #1f2937;
+    padding-left: 135px;
+    padding-right: 135px;
+}
+
+.text-container{
+    display: flex;
+    flex-direction: column;
+    text-wrap: wrap;
 }
 
 .two{
