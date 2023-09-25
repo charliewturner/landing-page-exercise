@@ -135,6 +135,18 @@ ul{
     
 }
 
+.sub{
+    width: 15%;
+}
+
+.img{
+    height: 50%;
+}
+
+.imgtext{
+    height: 50%;
+}
+
 .three{
     display: flex;
     flex-direction: column;
