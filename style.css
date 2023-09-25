@@ -113,6 +113,25 @@ ul{
 }
 
 .two{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.header-two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 30px;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.container-two{
+    display: flex;
+    justify-content: center;
+    height: 80%;
     
 }
 
