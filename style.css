@@ -4,12 +4,16 @@
 
 body{
     margin: 0px;
+    
 }
 
 .header{
     display: flex;
     background-color: #1f2937;
     margin: 0;
+    padding-left: 100px;
+    padding-right: 100px;
+    
 }
 
 .logo{
@@ -71,6 +75,7 @@ ul{
     color: white;
     width: 50%;
     padding-right: 20px;
+    margin-left: 100px;
     
 }
 
@@ -104,7 +109,7 @@ ul{
     width: 50%;
     background-color: rgba(165, 165, 165, 0.767);
     color: white;
-    
+    margin-right: 100px;
 }
 
 .two{
